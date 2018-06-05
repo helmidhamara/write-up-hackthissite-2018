@@ -1,10 +1,11 @@
-## Level 1(the idiot test)
-This level is what we call "The Idiot Test", if you can't complete it, don't give up on learning all you can, but, don't go begging to someone else for the answer, thats one way to get you hated/made fun of. Enter the password and you can continue.
+## Level 4
+This time Sam hardcoded the password into the script. However, the password is long and complex, and Sam is often forgetful. So he wrote a script that would email his password to him automatically in case he forgot. Here is the script:
+![Screenshot](https://github.com/helmidhamara/write-up-hackthissite-2018/blob/master/basic%20missions/level%204/Screenshot%20from%202018-06-05%2020-54-35.png)
+
 ## Solution
-Pada soal level 1, diketahui bahwa pada bagian help terdapat kata "If you have no idea what to do, you must learn HTML." Kita tahu bahwa soal tersebut berhubungan dengan bahasa pemrograman HTML. Dan setelah itu kita mencoba untuk membuka isi dari halaman tersebut dengan menggunakan inspect element seperti berikut.
-
+Pada soal level 4 ini, diketahui bahwa pada bagian "send password to sam" akan memberikan script untuk mengirim password yang lupa. lalu kita coba untuk mencari password tersebut dengan cara mengubah email yang ada pada script tersebut ke email kita. Kita coba untuk melihat isi dari script tersebut.
 ![Screenshot](https://github.com/helmidhamara/write-up-hackthissite-2018/blob/master/basic%20missions/level%204/Screenshot%20from%202018-06-05%2020-46-01.png)
+ditemukan sebuah email sam yang akan dikirim sebuah password. kemudian kita ubah email tersebut menjadi email kita untuk melihat password yang dikirim dari script tersebut. setelah itu kita coba buka script tersebut dengan cara meng-klik bagian tombol "send password to sam". Dan dari situ kita lihat inbox dari email kita dan akan mendapatkan password dari challenge tersebut.
 
-Dari situ kita dapat melihat password dari soal tersebut.
 ## Password
-password : 11b34cbd
+password : ec32a10d
